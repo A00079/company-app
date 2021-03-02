@@ -2,10 +2,12 @@
   <div class="home">
     <HomeScreen />
     <OurWork />
+    <Slider />
     <OurProcess />
     <HelpSupport />
     <FeaturedAPI />
     <Technologics />
+    <AwesomeServices />
     <OurServices />
     <Testimonials />
     <Footer />
@@ -20,21 +22,25 @@ import HelpSupport from "@/components/HelpSupport/HelpSupport.vue";
 import FeaturedAPI from "@/components/FeaturedAPI/FeaturedAPI.vue";
 import Technologics from "@/components/Technologics/Technologics.vue";
 import OurServices from "@/components/OurServices/OurServices.vue";
+import AwesomeServices from "@/components/AwesomeServices/AwesomeServices.vue";
 import Testimonials from "@/components/Testimonials/Testimonials.vue";
 import Footer from "@/components/Footer/Footer.vue";
+import Slider from "@/components/Sliders/Slider.vue";
 
 export default {
-  name: 'Home',
-  components:{
+  name: "Home",
+  components: {
     Technologics,
     Testimonials,
     OurServices,
     HomeScreen,
     OurProcess,
     HelpSupport,
+    AwesomeServices,
     FeaturedAPI,
     OurWork,
-    Footer
-  }
-}
+    Footer,
+    Slider,
+  },
+};
 </script>

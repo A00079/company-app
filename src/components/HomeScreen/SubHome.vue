@@ -1,7 +1,7 @@
 <template>
   <!-- component -->
   <!-- This is an example component -->
-  <div class="mt-4">
+  <div class="mt-4 hidden md:block lg:block xl:block">
     <div class="bg-transparent md:overflow-hidden">
       <div class="px-4 py-20 md:py-4">
         <div class="md:max-w-6xl md:mx-auto">

@@ -1,6 +1,6 @@
 <template>
   <section class="text-gray-600 body-font overflow-hidden">
-    <div class="container px-5 py-24 mx-auto">
+    <div class="container px-5 mb-44 mx-auto">
       <section class="text-gray-600 body-font">
         <div
           class="container mx-auto flex px-5 py-6 md:flex-row flex-col items-center"
@@ -11,17 +11,18 @@
             <h1
               class="title-font tracking-tight font-extrabold text-4xl md:text-6xl mb-4 font-medium text-white"
             >
-              Our Services
+              Our <span style="color: rgb(0, 210, 91)">Services</span>
             </h1>
-            <p class="mb-8 text-white leading-relaxed tracking-tight font-semibold">
+            <p
+              class="mb-8 text-white leading-relaxed tracking-tight font-semibold"
+            >
               Copper mug try-hard pitchfork pour-over freegan heirloom neutra
               air plant cold-pressed tacos poke beard tote bag. Heirloom echo
               park mlkshk tote bag selvage hot chicken authentic tumeric
               truffaut hexagon try-hard chambray.
             </p>
           </div>
-          <div class="lg:max-w-lg lg:w-full md:w-1/2 w-5/6">
-          </div>
+          <div class="lg:max-w-lg lg:w-full md:w-1/2 w-5/6"></div>
         </div>
       </section>
       <div class="flex flex-col text-center w-full mb-20">

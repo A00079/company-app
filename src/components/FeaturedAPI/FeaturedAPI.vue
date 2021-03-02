@@ -10,7 +10,8 @@
         <h1
           class="sm:text-3xl tracking-tight font-extrabold text-left text-2xl font-medium title-font text-white"
         >
-          Featured API's of this week
+          <span style="color: rgb(0, 210, 91)">Featured API's</span> of this
+          week
         </h1>
       </div>
       <div class="flex flex-wrap -m-4">

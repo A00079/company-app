@@ -7,11 +7,11 @@
         class="lg:flex-grow md:w-1/2 lg:pr-24 md:pr-16 flex flex-col md:items-start md:text-left mb-16 md:mb-0 items-center text-center"
       >
         <h1
-          class="text-5xl tracking-tight font-extrabold text-white md:text-8xl mb-4"
+          class="text-4xl text-left w-full md:text-center md:text-5xl  lg:text-center lg:text-5xl xl:text-center xl:text-5xl 2xl:text-center 2xl:text-5xl tracking-tight font-extrabold text-white md:text-8xl mb-4"
         >
-          <span class="block xl:inline">Our Process</span>
+          <span class="block xl:inline">Our <span style="color:rgb(0, 210, 91)">Process</span></span>
         </h1>
-        <p class="mb-8 leading-relaxed text-white md:text-1xl font-semi-bold">
+        <p class="mb-8 leading-relaxed text-white md:text-1xl font-semi-bold text-left w-full md:text-center   lg:text-center xl:text-center  2xl:text-center ">
           Copper mug try-hard pitchfork pour-over freegan heirloom neutra air
           plant cold-pressed tacos poke beard tote bag. Heirloom echo park
           mlkshk tote bag selvage hot chicken authentic tumeric truffaut hexagon
@@ -32,11 +32,19 @@
           />
         </div>
       </div>
-      <div class="lg:max-w-lg lg:w-full md:w-1/2 w-5/6">
+      <div class="lg:max-w-lg lg:w-full md:w-1/2 w-5/6 hidden md:block lg:block xl:block">
         <lottie
           :options="defaultOptions2"
           :height="470"
           :width="470"
+          v-on:animCreated="handleAnimation"
+        />
+      </div>
+      <div class="w-full md:hidden lg:hidden xl:hidden">
+        <lottie
+          :options="defaultOptions2"
+          :height="270"
+          :width="270"
           v-on:animCreated="handleAnimation"
         />
       </div>
@@ -58,8 +66,8 @@ export default {
       animationSpeed: 1,
     };
   },
-  components:{
-      SubOurProcess
+  components: {
+    SubOurProcess,
   },
   methods: {
     handleAnimation: function (anim) {

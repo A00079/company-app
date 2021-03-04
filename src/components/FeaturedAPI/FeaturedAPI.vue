@@ -1,15 +1,15 @@
 <template>
   <section class="text-gray-600 body-font">
     <div class="hidden md:block lg:block xl:block">
-      <div class="container px-36 py-24 mx-auto">
-        <div class="flex flex-col text-center w-full mb-10">
+      <div class="container px-36 md:px-10 lg:px-36 py-24 mx-auto">
+        <div class="flex flex-col md:text-left  text-center w-full mb-10">
           <!-- <h2
           class="text-xl text-indigo-500 tracking-widest font-medium title-font mb-1"
         >
           API's
         </h2> -->
           <h1
-            class="sm:text-3xl tracking-tight font-extrabold text-left text-2xl font-medium title-font text-white"
+            class="sm:text-3xl tracking-tight font-extrabold md:text-left text-left text-2xl font-medium title-font text-white"
           >
             <span style="color: rgb(0, 210, 91)">Featured API's</span> of this
             week
@@ -18,7 +18,7 @@
         <div class="flex flex-wrap -m-4">
           <div class="p-4 md:w-1/3">
             <div
-              class="flex rounded-md h-40 bg-gray-900 shadow-lg p-6 flex-col"
+              class="flex rounded-md h-40 bg-gray-900 shadow-lg md:p-3 lg:p-6 p-6 flex-col"
             >
               <div class="flex items-center mb-3">
                 <div
@@ -29,12 +29,12 @@
                     src="/img/whatapp.png"
                   />
                 </div>
-                <h2 class="text-gray-200 text-lg title-font font-medium">
+                <h2 class="text-gray-200 md:text-sm lg:text-lg text-lg title-font font-medium">
                   Shooting Stars
                 </h2>
               </div>
               <div class="flex-grow">
-                <p class="leading-relaxed text-base">
+                <p class="leading-relaxed md:text-sm text-base">
                   Blue bottle crucifix vinyl post-ironic four dollar toast vegan
                   taxidermy. Gastropub indxgo juice poutine.
                 </p>
@@ -43,7 +43,7 @@
           </div>
           <div class="p-4 md:w-1/3">
             <div
-              class="flex rounded-md h-40 bg-gray-900 shadow-lg p-6 flex-col"
+              class="flex rounded-md h-40 bg-gray-900 shadow-lg md:p-3 lg:p-6 p-6 flex-col"
             >
               <div class="flex items-center mb-3">
                 <div
@@ -54,12 +54,12 @@
                     src="/img/gmail.png"
                   />
                 </div>
-                <h2 class="text-gray-200 text-lg title-font font-medium">
+                <h2 class="text-gray-200 md:text-sm lg:text-lg text-lg title-font font-medium">
                   The Catalyzer
                 </h2>
               </div>
               <div class="flex-grow">
-                <p class="leading-relaxed text-base">
+                <p class="leading-relaxed md:text-sm text-base">
                   Blue bottle crucifix vinyl post-ironic four dollar toast vegan
                   taxidermy. Gastropub indxgo juice poutine.
                 </p>
@@ -68,7 +68,7 @@
           </div>
           <div class="p-4 md:w-1/3">
             <div
-              class="flex rounded-md h-40 bg-gray-900 shadow-lg p-6 flex-col"
+              class="flex rounded-md h-40 bg-gray-900 shadow-lg md:p-3 lg:p-6 p-6 flex-col"
             >
               <div class="flex items-center mb-3">
                 <div
@@ -79,12 +79,12 @@
                     src="/img/twitter.png"
                   />
                 </div>
-                <h2 class="text-gray-200 text-lg title-font font-medium">
+                <h2 class="text-gray-200 md:text-sm lg:text-lg text-lg title-font font-medium">
                   Neptune
                 </h2>
               </div>
               <div class="flex-grow">
-                <p class="leading-relaxed text-base">
+                <p class="leading-relaxed md:text-sm text-base">
                   Blue bottle crucifix vinyl post-ironic four dollar toast vegan
                   taxidermy. Gastropub indxgo juice poutine.
                 </p>
@@ -95,7 +95,7 @@
         <div class="flex flex-wrap -m-4">
           <div class="p-4 md:w-1/3">
             <div
-              class="flex rounded-md h-40 bg-gray-900 shadow-lg p-6 flex-col"
+              class="flex rounded-md h-40 bg-gray-900 shadow-lg md:p-3 lg:p-6 p-6 flex-col"
             >
               <div class="flex items-center mb-3">
                 <div
@@ -106,12 +106,12 @@
                     src="/img/facebook.png"
                   />
                 </div>
-                <h2 class="text-gray-200 text-lg title-font font-medium">
+                <h2 class="text-gray-200 md:text-sm lg:text-lg text-lg title-font font-medium">
                   Shooting Stars
                 </h2>
               </div>
               <div class="flex-grow">
-                <p class="leading-relaxed text-base">
+                <p class="leading-relaxed md:text-sm text-base">
                   Blue bottle crucifix vinyl post-ironic four dollar toast vegan
                   taxidermy. Gastropub indxgo juice poutine.
                 </p>
@@ -120,7 +120,7 @@
           </div>
           <div class="p-4 md:w-1/3">
             <div
-              class="flex rounded-md h-40 bg-gray-900 shadow-lg p-6 flex-col"
+              class="flex rounded-md h-40 bg-gray-900 shadow-lg md:p-3 lg:p-6 p-6 flex-col"
             >
               <div class="flex items-center mb-3">
                 <div
@@ -131,12 +131,12 @@
                     src="/img/insta.png"
                   />
                 </div>
-                <h2 class="text-gray-200 text-lg title-font font-medium">
+                <h2 class="text-gray-200 md:text-sm lg:text-lg text-lg title-font font-medium">
                   The Catalyzer
                 </h2>
               </div>
               <div class="flex-grow">
-                <p class="leading-relaxed text-base">
+                <p class="leading-relaxed md:text-sm text-base">
                   Blue bottle crucifix vinyl post-ironic four dollar toast vegan
                   taxidermy. Gastropub indxgo juice poutine.
                 </p>
@@ -145,7 +145,7 @@
           </div>
           <div class="p-4 md:w-1/3">
             <div
-              class="flex rounded-md h-40 bg-gray-900 shadow-lg p-6 flex-col"
+              class="flex rounded-md h-40 bg-gray-900 shadow-lg md:p-3 lg:p-6 p-6 flex-col"
             >
               <div class="flex items-center mb-3">
                 <div
@@ -156,12 +156,12 @@
                     src="/img/safe.png"
                   />
                 </div>
-                <h2 class="text-gray-200 text-lg title-font font-medium">
+                <h2 class="text-gray-200 md:text-sm lg:text-lg text-lg title-font font-medium">
                   Neptune
                 </h2>
               </div>
               <div class="flex-grow">
-                <p class="leading-relaxed text-base">
+                <p class="leading-relaxed md:text-sm text-base">
                   Blue bottle crucifix vinyl post-ironic four dollar toast vegan
                   taxidermy. Gastropub indxgo juice poutine.
                 </p>

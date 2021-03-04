@@ -37,7 +37,7 @@
         </div>
       </div>
       <div
-        class="lg:max-w-lg lg:w-full md:w-1/2 w-5/6 hidden md:block lg:block xl:block"
+        class="lg:max-w-lg lg:w-full md:w-1/2 w-5/6 hidden md:hidden lg:block xl:block 2xl:block"
       >
         <lottie
           :options="defaultOptions2"
@@ -46,15 +46,7 @@
           v-on:animCreated="handleAnimation"
         />
       </div>
-      <div class="hidden sm:block md:block lg:hidden xl:hidden 2xl:hidden">
-        <lottie
-          :options="defaultOptions2"
-          :height="270"
-          :width="270"
-          v-on:animCreated="handleAnimation"
-        />
-      </div>
-      <div class="w-full md:hidden lg:hidden xl:hidden">
+      <div class="w-full md:mb-28 sm:block md:block lg:hidden xl:hidden 2xl:hidden">
         <lottie
           :options="defaultOptions2"
           :height="270"

@@ -9,12 +9,12 @@
             class="lg:flex-grow md:w-1/2 lg:pr-24 md:pr-16 flex flex-col md:items-start md:text-left mb-16 md:mb-0 items-center text-center"
           >
             <h1
-              class="title-font tracking-tight font-extrabold text-4xl md:text-6xl mb-4 font-medium text-white"
+              class="title-font tracking-tight font-extrabold text-4xl md:text-4xl mb-4 font-medium text-white"
             >
               Our <span style="color: rgb(0, 210, 91)">Services</span>
             </h1>
             <p
-              class="mb-8 text-white leading-relaxed tracking-tight font-semibold"
+              class="mb-8 md:w-96 lg:w-full text-white leading-relaxed tracking-tight font-semibold"
             >
               Copper mug try-hard pitchfork pour-over freegan heirloom neutra
               air plant cold-pressed tacos poke beard tote bag. Heirloom echo

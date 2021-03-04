@@ -4,12 +4,12 @@
     <OurWork />
     <Slider />
     <OurProcess />
-    <!-- <HelpSupport /> -->
-    <!-- <FeaturedAPI /> -->
-    <!-- <Technologics /> -->
-    <!-- <AwesomeServices /> -->
-    <!-- <OurServices /> -->
-    <!-- <Testimonials /> -->
+    <HelpSupport />
+    <FeaturedAPI />
+    <Technologics />
+    <AwesomeServices />
+    <OurServices />
+    <Testimonials />
     <Footer />
   </div>
 </template>

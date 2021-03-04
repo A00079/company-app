@@ -1,7 +1,7 @@
 <template>
   <section class="text-gray-600 body-font">
     <div class="hidden md:block lg:block xl:block">
-      <div class="container px-36 py-2 mx-auto">
+      <div class="container px-36 md:px-10 lg:px-36 py-2 mx-auto">
         <div class="flex flex-col text-center w-full mb-2">
           <h1
             class="sm:text-3xl tracking-tight font-extrabold text-2xl font-medium title-font mb-4 text-white"
@@ -18,7 +18,7 @@
       <!-- component -->
       <!-- animation -->
       <section
-        class="px-36 mt-16 flex md:flex-row items-center justify-around flex-wrap sm:flex-col"
+        class="px-36 md:px-10 lg:px-36 mt-16 flex md:flex-row items-center justify-around flex-wrap sm:flex-col"
       >
         <!-- scale -->
         <div class="h-16 w-16 relative cursor-pointer mb-5">
@@ -51,7 +51,7 @@
       </section>
 
       <section
-        class="px-36 mt-10 flex md:flex-row items-center justify-around flex-wrap sm:flex-col"
+        class="px-36 md:px-10 lg:px-36 mt-10 flex md:flex-row items-center justify-around flex-wrap sm:flex-col"
       >
         <!-- scale -->
         <div class="h-16 w-16 relative cursor-pointer mb-5">
@@ -90,7 +90,7 @@
       </section>
 
       <section
-        class="px-36 mt-10 flex md:flex-row items-center justify-around flex-wrap sm:flex-col"
+        class="px-36 md:px-10 lg:px-36 mt-10 flex md:flex-row items-center justify-around flex-wrap sm:flex-col"
       >
         <!-- scale -->
         <div class="h-16 w-16 relative cursor-pointer mb-5">

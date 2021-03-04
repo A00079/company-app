@@ -4,14 +4,14 @@
       <div class="container px-5 py-24 mx-auto">
         <div class="flex flex-col text-center w-full mb-20">
           <h1
-            class="text-4xl text-left w-full  md:text-5xl  lg:text-5xl  xl:text-5xl  2xl:text-5xl tracking-tight font-extrabold text-white md:text-8xl mb-4"
+            class="text-4xl text-left w-full  md:text-4xl  lg:text-5xl  xl:text-5xl  2xl:text-5xl tracking-tight font-extrabold text-white mb-4"
           >
             <span class="block xl:inline"
               >We Need <span style="color: rgb(0, 210, 91)">Support</span></span
             >
           </h1>
           <h1
-            class="text-4xl md:text-5xl lg:text-5xl xl:text-5xl 2xl:text-5xl tracking-tight font-extrabold text-white md:text-3xl mb-4"
+            class="text-4xl h-10 md:text-4xl lg:text-5xl xl:text-5xl 2xl:text-5xl tracking-tight font-extrabold text-white mb-4"
           >
             <vue-typed-js
               :typeSpeed="100"
@@ -32,9 +32,9 @@
           <div class="h-full flex items-center">
             <div class="max-w-7xl w-full mx-0 py-0 sm:px-1 lg:px-1">
               <div
-                class="flex flex-col lg:flex-row w-full lg:space-x-2 space-y-2 lg:space-y-0 mb-2 lg:mb-4"
+                class="flex flex-col md:flex-row md:space-x-2 lg:flex-row w-full lg:space-x-2 space-y-2 lg:space-y-0 mb-2 lg:mb-4"
               >
-                <div class="w-full lg:w-1/4">
+                <div class="w-full lg:w-1/4 md:w-1/4 md:mt-2 lg:mt-0">
                   <div
                     class="flex max-w-md bg-gray-900 shadow-lg rounded-lg overflow-hidden"
                   >
@@ -53,7 +53,7 @@
                     </div>
                   </div>
                 </div>
-                <div class="w-full lg:w-1/4">
+                <div class="w-full lg:w-1/4 md:w-1/4">
                   <div
                     class="flex max-w-md bg-gray-900 shadow-lg rounded-lg overflow-hidden"
                   >
@@ -72,7 +72,7 @@
                     </div>
                   </div>
                 </div>
-                <div class="w-full lg:w-1/4">
+                <div class="w-full lg:w-1/4 md:w-1/4">
                   <div
                     class="flex max-w-md bg-gray-900 shadow-lg rounded-lg overflow-hidden"
                   >
@@ -91,7 +91,7 @@
                     </div>
                   </div>
                 </div>
-                <div class="w-full lg:w-1/4">
+                <div class="w-full lg:w-1/4 md:w-1/4">
                   <div
                     class="flex max-w-md bg-gray-900 shadow-lg rounded-lg overflow-hidden"
                   >
@@ -118,9 +118,9 @@
           <div class="h-full flex items-center">
             <div class="max-w-7xl w-full mx-0 py-0 sm:px-1 lg:px-1">
               <div
-                class="flex flex-col lg:flex-row w-full lg:space-x-2 space-y-2 lg:space-y-0 mb-2 lg:mb-4"
+                class="flex flex-col md:flex-row md:space-x-2 lg:flex-row w-full lg:space-x-2 space-y-2 lg:space-y-0 mb-2 lg:mb-4"
               >
-                <div class="w-full lg:w-1/4">
+                <div class="w-full lg:w-1/4 md:w-1/4 md:mt-2 lg-mt-0">
                   <div
                     class="flex max-w-md bg-gray-900 shadow-lg rounded-lg overflow-hidden"
                   >
@@ -139,7 +139,7 @@
                     </div>
                   </div>
                 </div>
-                <div class="w-full lg:w-1/4">
+                <div class="w-full lg:w-1/4 md:w-1/4">
                   <div
                     class="flex max-w-md bg-gray-900 shadow-lg rounded-lg overflow-hidden"
                   >
@@ -158,7 +158,7 @@
                     </div>
                   </div>
                 </div>
-                <div class="w-full lg:w-1/4">
+                <div class="w-full lg:w-1/4 md:w-1/4">
                   <div
                     class="flex max-w-md bg-gray-900 shadow-lg rounded-lg overflow-hidden"
                   >
@@ -177,7 +177,7 @@
                     </div>
                   </div>
                 </div>
-                <div class="w-full lg:w-1/4">
+                <div class="w-full lg:w-1/4 md:w-1/4">
                   <div
                     class="flex max-w-md bg-gray-900 shadow-lg rounded-lg overflow-hidden"
                   >
@@ -204,9 +204,9 @@
           <div class="h-full flex items-center">
             <div class="max-w-7xl w-full mx-0 py-0 sm:px-1 lg:px-1">
               <div
-                class="flex flex-col lg:flex-row w-full lg:space-x-2 space-y-2 lg:space-y-0 mb-2 lg:mb-4"
+                class="flex flex-col md:flex-row  md:space-x-2 lg:flex-row w-full lg:space-x-2 space-y-2 lg:space-y-0 mb-2 lg:mb-4"
               >
-                <div class="w-full lg:w-1/4">
+                <div class="w-full lg:w-1/4 md:w-1/4 md:mt-2 lg:mt-0">
                   <div
                     class="flex max-w-md bg-gray-900 shadow-lg rounded-lg overflow-hidden"
                   >
@@ -225,7 +225,7 @@
                     </div>
                   </div>
                 </div>
-                <div class="w-full lg:w-1/4">
+                <div class="w-full lg:w-1/4 md:w-1/4">
                   <div
                     class="flex max-w-md bg-gray-900 shadow-lg rounded-lg overflow-hidden"
                   >
@@ -244,7 +244,7 @@
                     </div>
                   </div>
                 </div>
-                <div class="w-full lg:w-1/4">
+                <div class="w-full lg:w-1/4 md:w-1/4">
                   <div
                     class="flex max-w-md bg-gray-900 shadow-lg rounded-lg overflow-hidden"
                   >
@@ -263,7 +263,7 @@
                     </div>
                   </div>
                 </div>
-                <div class="w-full lg:w-1/4">
+                <div class="w-full lg:w-1/4 md:w-1/4">
                   <div
                     class="flex max-w-md bg-gray-900 shadow-lg rounded-lg overflow-hidden"
                   >
@@ -364,7 +364,7 @@
         </div>
       </div> -->
       </div>
-      <img class="w-96 h-96 absolute right-0" src="/img/webpointer.svg" />
+      <img class="w-96 h-96 absolute right-0" src="/img/webpointer.svg" style="z-index:-1;" />
     </div>
     <div class="md:hidden lg:hidden xl:hidden">
       <div class="container px-5 py-24 mx-auto">

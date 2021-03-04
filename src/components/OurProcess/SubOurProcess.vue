@@ -1,6 +1,6 @@
 <template>
   <section>
-    <div class="bg-white h-96 hidden md:block lg:block xl:block">
+    <div class="bg-white h-96 hidden md:hidden lg:block xl:block 2xl:block">
       <lottie
         :options="defaultOptions"
         :height="420"
@@ -8,11 +8,19 @@
         v-on:animCreated="handleAnimation"
       />
     </div>
-    <div class="bg-white h-72 w-full mx-auto md:hidden lg:hidden xl:hidden">
+    <div class="bg-white h-80 hidden w-full mx-auto md:block lg:hidden xl:hidden">
       <lottie
         :options="defaultOptions"
         :height="350"
-        :width="350"
+        :width="450"
+        v-on:animCreated="handleAnimation"
+      />
+    </div>
+    <div class="bg-white h-40 w-full mx-auto md:hidden lg:hidden xl:hidden 2xl:hidden">
+      <lottie
+        :options="defaultOptions"
+        :height="180"
+        :width="260"
         v-on:animCreated="handleAnimation"
       />
     </div>

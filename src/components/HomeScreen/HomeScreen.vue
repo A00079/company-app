@@ -151,7 +151,7 @@
               <lottie
                 :options="defaultOptions"
                 :height="270"
-                :width="360"
+                :width="300"
                 v-on:animCreated="handleAnimation"
               />
             </div>
@@ -159,7 +159,7 @@
               <lottie
                 :options="defaultOptions2"
                 :height="270"
-                :width="360"
+                :width="300"
                 v-on:animCreated="handleAnimation"
               />
             </div>
@@ -167,7 +167,7 @@
               <lottie
                 :options="defaultOptions3"
                 :height="270"
-                :width="360"
+                :width="300"
                 v-on:animCreated="handleAnimation"
               />
             </div>

@@ -23,7 +23,7 @@
       </div>
       <div class="awesome-services">
         <div class="hidden md:block lg:block xl:block">
-          <div class="flex flex-row justify-between">
+          <div class="flex flex-row md:flex-col lg:flex-row justify-between">
             <div class="left-details">
               <div class="p-2 w-full">
                 <div class="h-full flex items-center p-2 rounded-lg">
@@ -50,7 +50,7 @@
                       style="background: #ffab00"
                       class="h-1 w-full rounded text-left"
                     ></div>
-                    <p class="text-gray-500 w-80">
+                    <p class="text-gray-500 w-full text-left">
                       Whatever cardigan tote bag tumblr hexagon brooklyn
                       asymmetrical gentrify
                     </p>
@@ -82,7 +82,7 @@
                       style="background: #ffab00"
                       class="h-1 w-full rounded text-left"
                     ></div>
-                    <p class="text-gray-500 w-80">
+                    <p class="text-gray-500 w-full text-left">
                       Whatever cardigan tote bag tumblr hexagon brooklyn
                       asymmetrical gentrify
                     </p>
@@ -114,7 +114,7 @@
                       style="background: #ffab00"
                       class="h-1 w-full rounded text-left"
                     ></div>
-                    <p class="text-gray-500 w-80">
+                    <p class="text-gray-500 w-full text-left">
                       Whatever cardigan tote bag tumblr hexagon brooklyn
                       asymmetrical gentrify
                     </p>
@@ -141,7 +141,7 @@
                       style="background: #ffab00"
                       class="h-1 w-full rounded text-left"
                     ></div>
-                    <p class="text-gray-500 w-80">
+                    <p class="text-gray-500 w-full text-right">
                       Whatever cardigan tote bag tumblr hexagon brooklyn
                       asymmetrical gentrify
                     </p>
@@ -173,7 +173,7 @@
                       style="background: #ffab00"
                       class="h-1 w-full rounded text-left"
                     ></div>
-                    <p class="text-gray-500 w-80">
+                    <p class="text-gray-500 w-full text-right">
                       Whatever cardigan tote bag tumblr hexagon brooklyn
                       asymmetrical gentrify
                     </p>
@@ -205,7 +205,7 @@
                       style="background: #ffab00"
                       class="h-1 w-full rounded text-left"
                     ></div>
-                    <p class="text-gray-500 w-80">
+                    <p class="text-gray-500 w-full text-right">
                       Whatever cardigan tote bag tumblr hexagon brooklyn
                       asymmetrical gentrify
                     </p>

@@ -1,15 +1,15 @@
 <template>
   <section>
-    <div class="hidden md:block lg:block xl:block">
+    <div class="hidden md:hidden lg:block xl:block">
       <div class="relative">
         <img
           class="w-96 h-96 absolute right-0 bottom-36"
           src="/img/webpointer.svg"
         />
-        <div class="container px-24">
+        <div class="container px-24 md:px-10 lg:px-24">
           <div class="flex flex-col text-center w-full mb-0">
             <h1
-              class="text-7xl font-medium text-left title-font tracking-tight font-extrabold mb-4 text-white"
+              class="text-7xl md:text-4xl lg:text-7xl font-medium text-left title-font tracking-tight font-extrabold mb-4 text-white"
             >
               Our <span style="color: rgb(0, 210, 91)">Pillars</span>
             </h1>
@@ -27,7 +27,7 @@
         </section>
       </div>
     </div>
-    <div class="md:hidden lg:hidden xl:hidden">
+    <div class="md:block lg:hidden xl:hidden">
       <div class="relative">
         <img
           class="w-96 h-96 absolute right-0 bottom-36"
@@ -52,7 +52,7 @@
               <div class="container px-5 py-4 mx-auto">
                 <div class="xl:w-1/2 lg:w-3/4 w-full mx-auto text-center">
                   <img
-                    class="lg:w-2/6 md:w-3/6 w-48 mx-auto h-48 mb-10 object-cover object-center rounded-full"
+                    class="lg:w-2/6 md:w-48 md:h-48 w-48 mx-auto h-48 mb-10 object-cover object-center rounded-full"
                     alt="hero"
                     src="/img/insta_one.jpg"
                   />
@@ -90,7 +90,7 @@
               <div class="container px-5 py-4 mx-auto">
                 <div class="xl:w-1/2 lg:w-3/4 w-full mx-auto text-center">
                   <img
-                    class="lg:w-2/6 md:w-3/6 w-48 mx-auto h-48 mb-10 object-cover object-center rounded-full"
+                    class="lg:w-2/6 md:w-48 md:h-48 w-48 mx-auto h-48 mb-10 object-cover object-center rounded-full"
                     alt="hero"
                     src="/img/insta_one.jpg"
                   />

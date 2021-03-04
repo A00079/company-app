@@ -4,7 +4,7 @@
       <div class="relative bg-transparent overflow-hidden pt-10">
         <div class="max-w-7xl mx-auto">
           <div
-            class="relative z-10 pb-8 bg-transparent sm:pb-16 md:pb-20 lg:max-w-2xl lg:w-full lg:pb-28 xl:pb-32"
+            class="relative z-10 pb-8 bg-transparent sm:pb-16 md:pb-20 sm:max-w-2xl  sm:w-full lg:max-w-2xl  lg:w-full lg:pb-28 xl:pb-32"
           >
             <svg
               class="hidden lg:block absolute right-0 inset-y-0 h-full w-28 text-transparent transform translate-x-1/2"
@@ -20,9 +20,9 @@
             <main
               class="mt-10 mx-auto max-w-7xl px-4 sm:mt-12 sm:px-6 md:mt-16 lg:mt-20 lg:px-8 xl:mt-28"
             >
-              <div class="sm:text-center lg:text-left">
+              <div class="sm:text-left lg:text-left">
                 <h1
-                  class="text-4xl tracking-tight font-extrabold text-white sm:text-5xl md:text-6xl"
+                  class="text-4xl tracking-tight font-extrabold text-white lg:text-6xl sm:text-4xl md:text-4xl"
                 >
                   <span class="block xl:inline"
                     >We Design
@@ -30,7 +30,7 @@
                   >
                 </h1>
                 <h1
-                  class="text-4xl mt-3 tracking-tight font-extrabold text-white sm:text-5xl md:text-4xl"
+                  class="text-4xl md:h-10 mt-3 lg:text-4xl tracking-tight font-extrabold text-white sm:text-2xl md:text-xl"
                 >
                   <vue-typed-js
                     :typeSpeed="100"
@@ -52,14 +52,14 @@
                   </vue-typed-js>
                 </h1>
                 <p
-                  class="mt-3 text-base text-gray-500 sm:mt-5 sm:text-lg sm:max-w-xl sm:mx-auto md:mt-5 md:text-xl lg:mx-0"
+                  class="mt-3 text-base text-gray-500 lg:text-xl lg:pr-10 sm:mt-5 sm:text-xl sm:w-full sm:pr-72 md:mt-5 md:text-sm lg:mx-0"
                 >
                   Anim aute id magna aliqua ad ad non deserunt sunt. Qui irure
                   qui lorem cupidatat commodo. Elit sunt amet fugiat veniam
                   occaecat fugiat aliqua.
                 </p>
                 <div
-                  class="mt-5 sm:mt-8 sm:flex sm:justify-center lg:justify-start"
+                  class="mt-5 sm:mt-8 sm:flex sm:justify-start lg:justify-start"
                 >
                   <div class="rounded-md shadow">
                     <a
@@ -83,7 +83,7 @@
           </div>
         </div>
         <div
-          class="lg:absolute lg:inset-y-0 lg:right-0 lg:w-1/2 mt-16 animate__animated animate__fadeIn"
+          class="hidden sm:hidden md:hidden lg:block xl:block 2xl:block lg:absolute lg:inset-y-0 lg:right-0 lg:w-1/2 sm:absolute sm:inset-y-0 sm:right-0 sm:w-1/2 md:absolute md:inset-y-0 md:right-0 md:w-1/2 mt-16 animate__animated animate__fadeIn"
         >
           <div v-show="firstLotti">
             <lottie
@@ -106,6 +106,34 @@
               :options="defaultOptions3"
               :height="520"
               :width="580"
+              v-on:animCreated="handleAnimation"
+            />
+          </div>
+        </div>
+        <div
+          class="hidden sm:block md:block lg:hidden xl:hidden 2xl:hidden lg:absolute lg:inset-y-0 lg:right-0 lg:w-1/2 sm:absolute sm:inset-y-0 sm:right-0 sm:w-1/2 md:absolute md:inset-y-0 md:right-0 md:w-1/2 mt-16 animate__animated animate__fadeIn"
+        >
+          <div v-show="firstLotti">
+            <lottie
+              :options="defaultOptions"
+              :height="350"
+              :width="350"
+              v-on:animCreated="handleAnimation"
+            />
+          </div>
+          <div v-show="secondtLotti">
+            <lottie
+              :options="defaultOptions2"
+              :height="350"
+              :width="350"
+              v-on:animCreated="handleAnimation"
+            />
+          </div>
+          <div v-show="thirdtLotti">
+            <lottie
+              :options="defaultOptions3"
+              :height="350"
+              :width="350"
               v-on:animCreated="handleAnimation"
             />
           </div>

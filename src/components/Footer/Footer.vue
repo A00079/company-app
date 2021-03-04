@@ -85,61 +85,63 @@
       <div class="hidden md:block lg:block xl:block">
         <div class="flex flex-row bg-gray-800 mb-8 w-full">
           <h4
-            class="text-xl text-white title-font mr-12 pl-28 mt-5 ml-5 tracking-tight font-semibold"
+            class="text-xl text-white title-font mr-12 sm:text-2xl sm:pl-5 pl-28 mt-5 ml-5 tracking-tight font-semibold"
           >
             Our Patners
           </h4>
-          <div class="p-2">
-            <div class="h-14 flex items-center bg-gray-900 p-2 rounded-lg">
-              <div class="flex-grow">
-                <h2 class="text-gray-100 title-font font-medium">
-                  Holden Caulfield
-                </h2>
+          <div class="sm:flex sm:flex-wrap sm:justify-around">
+            <div class="p-2">
+              <div class="h-14 flex items-center bg-gray-900 p-2 rounded-lg">
+                <div class="flex-grow">
+                  <h2 class="text-gray-100 title-font font-medium">
+                    Holden Caulfield
+                  </h2>
+                </div>
               </div>
             </div>
-          </div>
-          <div class="p-2">
-            <div class="h-14 flex items-center bg-gray-900 p-2 rounded-lg">
-              <div class="flex-grow">
-                <h2 class="text-gray-100 title-font font-medium">
-                  Holden Caulfield
-                </h2>
+            <div class="p-2">
+              <div class="h-14 flex items-center bg-gray-900 p-2 rounded-lg">
+                <div class="flex-grow">
+                  <h2 class="text-gray-100 title-font font-medium">
+                    Holden Caulfield
+                  </h2>
+                </div>
               </div>
             </div>
-          </div>
-          <div class="p-2">
-            <div class="h-14 flex items-center bg-gray-900 p-2 rounded-lg">
-              <div class="flex-grow">
-                <h2 class="text-gray-100 title-font font-medium">
-                  Holden Caulfield
-                </h2>
+            <div class="p-2">
+              <div class="h-14 flex items-center bg-gray-900 p-2 rounded-lg">
+                <div class="flex-grow">
+                  <h2 class="text-gray-100 title-font font-medium">
+                    Holden Caulfield
+                  </h2>
+                </div>
               </div>
             </div>
-          </div>
-          <div class="p-2">
-            <div class="h-14 flex items-center bg-gray-900 p-2 rounded-lg">
-              <div class="flex-grow">
-                <h2 class="text-gray-100 title-font font-medium">
-                  Holden Caulfield
-                </h2>
+            <div class="p-2">
+              <div class="h-14 flex items-center bg-gray-900 p-2 rounded-lg">
+                <div class="flex-grow">
+                  <h2 class="text-gray-100 title-font font-medium">
+                    Holden Caulfield
+                  </h2>
+                </div>
               </div>
             </div>
-          </div>
-          <div class="p-2">
-            <div class="h-14 flex items-center bg-gray-900 p-2 rounded-lg">
-              <div class="flex-grow">
-                <h2 class="text-gray-100 title-font font-medium">
-                  Holden Caulfield
-                </h2>
+            <div class="p-2">
+              <div class="h-14 flex items-center bg-gray-900 p-2 rounded-lg">
+                <div class="flex-grow">
+                  <h2 class="text-gray-100 title-font font-medium">
+                    Holden Caulfield
+                  </h2>
+                </div>
               </div>
             </div>
-          </div>
-          <div class="p-2">
-            <div class="h-14 flex items-center bg-gray-900 p-2 rounded-lg">
-              <div class="flex-grow">
-                <h2 class="text-gray-100 title-font font-medium">
-                  Holden Caulfield
-                </h2>
+            <div class="p-2">
+              <div class="h-14 flex items-center bg-gray-900 p-2 rounded-lg">
+                <div class="flex-grow">
+                  <h2 class="text-gray-100 title-font font-medium">
+                    Holden Caulfield
+                  </h2>
+                </div>
               </div>
             </div>
           </div>
@@ -268,8 +270,8 @@
         </div>
       </div>
       <div class="hidden md:block lg:block xl:block bg-gray-700 mt-6 p-2">
-        <div class="flex justify-around">
-          <div class="flex flex-row justify-center items-center">
+        <div class="flex justify-around sm:flex-wrap">
+          <div class="flex flex-row sm:flex-wrap sm:justify-start justify-center items-center">
             <p class="text-gray-400 pl-5">Investors</p>
             <p class="text-gray-400 pl-5">Privacy Policy</p>
             <p class="text-gray-400 pl-5">Terms of Use</p>
@@ -277,7 +279,7 @@
             <p class="text-gray-400 pl-5">Intellectual Policy</p>
             <p class="text-gray-400 pl-5">Sitemap</p>
           </div>
-          <div class="flex flex-row justify-end">
+          <div class="flex flex-row sm:flex-wrap justify-end sm:mt-4">
             <p class="text-gray-400 pl-5">
               <img
                 src="/img/facebook.png"
@@ -358,25 +360,29 @@
     </div>
     <div class="bg-gray-900 border-t-2 border-gray-700">
       <div
-        class="container mx-auto py-2 px-10 md:px-24 lg:px-24 xl:px-24 flex flex-wrap flex-col sm:flex-row"
+        class="container mx-auto py-2 px-10 md:px-24 lg:px-24 xl:px-24 flex flex-wrap flex-col sm:flex sm:flex-row sm:justify-between"
       >
-        <small
-          class="text-gray-400 text-left md:text-center lg:text-center xl:text-center sm:text-left"
-        >
-          Poonam Empire Nallasopara (W) © Copyright 2021 TheRealDevs.com<br />
-          All Rights Reserved. *No. 1 in terms of Software Development as per industry
-          estimates
-        </small>
-        <span
-          class="inline-flex sm:ml-auto sm:mt-0 mt-2 justify-start md:justify-center lg:justify-center xl:justify-center sm:justify-start"
-        >
-          <a class="text-gray-500">
-            <img src="/img/india.png" class="w-12 h-12" />
-          </a>
-          <small class="ml-3 text-gray-200 items-center mt-3">
-            Made in India
+        <div>
+          <small
+            class="text-gray-400 text-left md:text-center lg:text-center xl:text-center sm:text-left"
+          >
+            Poonam Empire Nallasopara (W) © Copyright 2021 TheRealDevs.com<br />
+            All Rights Reserved. *No. 1 in terms of Software Development as per
+            industry estimates
           </small>
-        </span>
+        </div>
+        <div>
+          <span
+            class="inline-flex sm:mt-0 mt-2 justify-start md:justify-center lg:justify-center xl:justify-center sm:justify-end"
+          >
+            <a class="text-gray-500">
+              <img src="/img/india.png" class="w-12 h-12" />
+            </a>
+            <small class="ml-3 text-gray-200 items-center mt-3">
+              Made in India
+            </small>
+          </span>
+        </div>
       </div>
     </div>
   </footer>

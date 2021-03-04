@@ -16,16 +16,16 @@
     <div
       class="bg-gray-900 border-b-2 border-gray-900 md:pb-0 lg:pb-0 xl:pb-0 pb-1 fixed z-50 w-full"
     >
-      <div class="max-w-7xl mx-auto px-4 sm:px-6">
+      <div class="w-full lg:px-20 mx-auto lg:py-3 px-4 sm:px-10">
         <div
-          class="flex justify-between items-center py-2 md:justify-start md:space-x-10"
+          class="flex justify-between items-center py-2 lg:justify-start md:justify-start sm:space-x-0 md:space-x-10 lg:space-x-20"
         >
-          <div class="flex justify-start lg:w-0 lg:flex-1">
-            <button
-              class="group rounded-md text-white inline-flex items-center md:text-sm text-base font-medium hover:text-gray-400 focus:outline-none mr-10 focus:text-indigo-500"
+          <div class="flex justify-start sm:w-full  sm:flex-1 lg:w-20 lg:flex-1">
+            <div
+              class="group rounded-md text-white inline-flex items-center md:text-xl lg:text-2xl text-base font-medium hover:text-gray-400 focus:outline-none mr-10 focus:text-indigo-500"
             >
-              <span class="title-font tracking-tight font-extrabold text-2xl">The <span style="color:#00d25b">Real</span> Devs</span>
-            </button>
+              <span class="title-font tracking-tight font-extrabold lg:text-2xl text-2xl sm:text-sm">The <span style="color:#00d25b">Real</span> Devs</span>
+            </div>
           </div>
           <div class="-mr-2 -my-2 pt-1 md:hidden">
             <button
@@ -52,17 +52,17 @@
               </svg>
             </button>
           </div>
-          <nav class="hidden md:flex space-x-10">
+          <nav class="hidden md:flex space-x-10 lg:pr-0 lg:space-x-10 lg:justify-start sm:space-x-7 sm:flex flex-wrap justify-start">
             <div class="relative">
               <!-- Item active: "text-gray-900", Item inactive: "text-gray-500" -->
               <button
-                class="group rounded-md text-white inline-flex items-center md:text-sm text-base font-medium hover:text-gray-400 focus:outline-none mr-10 focus:text-indigo-500"
+                class="group rounded-md sm:text-sm text-white inline-flex items-center md:text-sm text-base font-medium hover:text-gray-400 focus:outline-none mr-10 focus:text-indigo-500"
               >
                 <span>Our Services</span>
               </button>
               <button
                 @click="toggleDrawer('Loan')"
-                class="group rounded-md text-white inline-flex items-center md:text-sm text-base font-medium hover:text-gray-400 focus:outline-none focus:text-indigo-500"
+                class="group rounded-md sm:text-sm text-white inline-flex items-center md:text-sm text-base font-medium hover:text-gray-400 focus:outline-none focus:text-indigo-500"
               >
                 <span>Technologics</span>
                 <!--
@@ -527,19 +527,19 @@
               Contact
             </a>
           </nav>
-          <div class="hidden md:flex items-center justify-end md:flex-1 lg:w-0">
-            <a
+          <div  class="hidden  md:flex items-center justify-end md:flex-1 lg:w-0">
+            <!-- <a
               href="#"
-              class="whitespace-nowrap text-base font-medium text-white hover:text-gray-900"
+              class="whitespace-nowrap sm:text-sm text-base font-medium text-white hover:text-gray-900"
             >
               Sign in
-            </a>
+            </a> -->
             <a
               style="background: #fb117e"
               href="#"
-              class="ml-8 whitespace-nowrap inline-flex items-center justify-center px-4 py-2 border border-transparent rounded-md shadow-sm text-base font-medium text-white hover:bg-indigo-700"
+              class="sm:ml-4 ml-8 whitespace-nowrap inline-flex items-center justify-center sm:text-sm sm:px-2 sm:py-1 px-4 py-2 border border-transparent rounded-md shadow-sm text-base font-medium text-white hover:bg-indigo-700"
             >
-              Sign up
+              Get In Touch
             </a>
           </div>
         </div>

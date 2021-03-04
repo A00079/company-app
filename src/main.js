@@ -5,7 +5,9 @@ import store from './store'
 import Lottie from "vue-lottie";
 import VueTypedJs from 'vue-typed-js';
 import InfiniteSlideBar from 'vue-infinite-slide-bar'
+import VueCarousel from 'vue-carousel';
  
+Vue.use(VueCarousel);
 Vue.component('InfiniteSlideBar', InfiniteSlideBar)
 Vue.use(VueTypedJs)
 Vue.component("lottie", Lottie);

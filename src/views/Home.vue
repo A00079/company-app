@@ -10,6 +10,7 @@
     <AwesomeServices />
     <OurServices />
     <Testimonials />
+    <Banner />
     <Footer />
   </div>
 </template>
@@ -26,6 +27,7 @@ import AwesomeServices from "@/components/AwesomeServices/AwesomeServices.vue";
 import Testimonials from "@/components/Testimonials/Testimonials.vue";
 import Footer from "@/components/Footer/Footer.vue";
 import Slider from "@/components/Sliders/Slider.vue";
+import Banner from "@/components/Banner/Banner.vue";
 
 export default {
   name: "Home",
@@ -41,6 +43,7 @@ export default {
     OurWork,
     Footer,
     Slider,
+    Banner,
   },
 };
 </script>

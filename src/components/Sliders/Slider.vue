@@ -9,8 +9,8 @@
                 <div class="bg-indigo-900 rounded-sm">
                   <img
                     alt="gallery"
-                    class="w-full object-cover p-6 h-full object-center block"
-                    src="https://dummyimage.com/400x200"
+                    class="w-full object-cover p-2 h-full object-center block"
+                    src="/img/AdsRevenue1.PNG"
                   />
                 </div>
               </div>
@@ -18,8 +18,8 @@
                 <div class="bg-gray-800 rounded-sm">
                   <img
                     alt="gallery"
-                    class="w-full object-cover p-6 h-full object-center block"
-                    src="https://dummyimage.com/400x200"
+                    class="w-full object-cover p-2 h-full object-center block"
+                    src="/img/Curvicare1.PNG"
                   />
                 </div>
               </div>
@@ -27,8 +27,8 @@
                 <div class="bg-yellow-500 rounded-sm">
                   <img
                     alt="gallery"
-                    class="w-full h-60 object-cover p-6 object-center block"
-                    src="https://dummyimage.com/600x260"
+                    class="w-full h-60 object-cover p-2 object-center block"
+                    src="/img/Curvicare5.PNG"
                   />
                 </div>
               </div>
@@ -38,8 +38,8 @@
                 <div class="bg-purple-600 rounded-sm">
                   <img
                     alt="gallery"
-                    class="w-full h-60 object-cover p-6 object-center block"
-                    src="https://dummyimage.com/601x361"
+                    class="w-full h-60 object-cover p-2 object-center block"
+                    src="/img/curvicaredashboard.PNG"
                   />
                 </div>
               </div>
@@ -47,8 +47,8 @@
                 <div class="bg-red-900 rounded-sm">
                   <img
                     alt="gallery"
-                    class="w-full object-cover h-full p-6 object-center block"
-                    src="https://dummyimage.com/502x302"
+                    class="w-full object-cover h-full p-2 object-center block"
+                    src="/img/AdsRevenue3.PNG"
                   />
                 </div>
               </div>
@@ -56,8 +56,8 @@
                 <div class="bg-black rounded-sm">
                   <img
                     alt="gallery"
-                    class="w-full object-cover h-full p-6 object-center block"
-                    src="https://dummyimage.com/503x303"
+                    class="w-full object-cover h-full p-2 object-center block"
+                    src="/img/ReachBuy1.PNG"
                   />
                 </div>
               </div>
@@ -70,8 +70,8 @@
                 <div class="bg-indigo-900 rounded-sm">
                   <img
                     alt="gallery"
-                    class="w-full object-cover p-6 h-full object-center block"
-                    src="https://dummyimage.com/400x200"
+                    class="w-full object-cover p-2 h-full object-center block"
+                    src="/img/ReachBuy2.PNG"
                   />
                 </div>
               </div>
@@ -79,8 +79,8 @@
                 <div class="bg-gray-800 rounded-sm">
                   <img
                     alt="gallery"
-                    class="w-full object-cover p-6 h-full object-center block"
-                    src="https://dummyimage.com/400x200"
+                    class="w-full object-cover p-2 h-full object-center block"
+                    src="/img/Curvicare3.PNG"
                   />
                 </div>
               </div>
@@ -88,8 +88,8 @@
                 <div class="bg-yellow-500 rounded-sm">
                   <img
                     alt="gallery"
-                    class="w-full h-60 object-cover p-6 object-center block"
-                    src="https://dummyimage.com/600x260"
+                    class="w-full h-60 object-cover p-2 object-center block"
+                    src="/img/Curvicare2.PNG"
                   />
                 </div>
               </div>
@@ -99,8 +99,8 @@
                 <div class="bg-purple-600 rounded-sm">
                   <img
                     alt="gallery"
-                    class="w-full h-60 object-cover p-6 object-center block"
-                    src="https://dummyimage.com/601x361"
+                    class="w-full h-60 object-cover p-2 object-center block"
+                    src="/img/ReachBuy3.PNG"
                   />
                 </div>
               </div>
@@ -108,8 +108,8 @@
                 <div class="bg-red-900 rounded-sm">
                   <img
                     alt="gallery"
-                    class="w-full object-cover h-full p-6 object-center block"
-                    src="https://dummyimage.com/502x302"
+                    class="w-full object-cover h-full p-2 object-center block"
+                    src="/img/ReachBuy5.PNG"
                   />
                 </div>
               </div>
@@ -117,8 +117,8 @@
                 <div class="bg-black rounded-sm">
                   <img
                     alt="gallery"
-                    class="w-full object-cover h-full p-6 object-center block"
-                    src="https://dummyimage.com/503x303"
+                    class="w-full object-cover h-full p-2 object-center block"
+                    src="/img/AdsRevenue4.PNG"
                   />
                 </div>
               </div>

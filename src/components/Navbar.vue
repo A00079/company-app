@@ -22,7 +22,8 @@
         >
           <div class="flex justify-start sm:w-full  sm:flex-1 lg:w-20 lg:flex-1">
             <div
-              class="group rounded-md text-white inline-flex items-center md:text-xl lg:text-2xl text-base font-medium hover:text-gray-400 focus:outline-none mr-10 focus:text-indigo-500"
+              @click="$router.push('/')"
+              class="cursor-pointer group rounded-md text-white inline-flex items-center md:text-xl lg:text-2xl text-base font-medium hover:text-gray-400 focus:outline-none mr-10 focus:text-indigo-500"
             >
               <span class="title-font tracking-tight font-extrabold lg:text-2xl text-2xl sm:text-sm">The <span style="color:#00d25b">Real</span> Devs</span>
             </div>
@@ -56,6 +57,7 @@
             <div class="relative">
               <!-- Item active: "text-gray-900", Item inactive: "text-gray-500" -->
               <button
+                @click="$router.push('/our-services')"
                 class="group rounded-md sm:text-sm text-white inline-flex items-center md:text-sm text-base font-medium hover:text-gray-400 focus:outline-none mr-10 focus:text-indigo-500"
               >
                 <span>Our Services</span>
@@ -311,7 +313,7 @@
                         </p>
                         <p class="mt-1 text-sm text-gray-500">
                           Get all of your questions answered in our forums or
-                          contact support.
+                          About Us support.
                         </p>
                       </div>
                     </a>
@@ -382,15 +384,15 @@
             <div class="relative">
               <!-- Item active: "text-gray-900", Item inactive: "text-gray-500" -->
               <button
-                @click="toggleDrawer('LearnResources')"
+                @click="$router.push('/faq')"
                 class="group rounded-md text-white inline-flex md:text-sm items-center text-base font-medium hover:text-gray-400 focus:outline-none focus:text-indigo-500"
               >
-                <span>Help & Support</span>
+                <span>FAQ's</span>
                 <!--
               Heroicon name: chevron-down
               Item active: "text-gray-600", Item inactive: "text-gray-400"
             -->
-                <svg
+                <!-- <svg
                   v-show="!toggleDrawer_LearnResources"
                   class="ml-2 h-5 w-5 text-gray-400 group-hover:text-gray-500 transition-all duration-500"
                   xmlns="http://www.w3.org/2000/svg"
@@ -403,8 +405,8 @@
                     d="M5.293 7.293a1 1 0 011.414 0L10 10.586l3.293-3.293a1 1 0 111.414 1.414l-4 4a1 1 0 01-1.414 0l-4-4a1 1 0 010-1.414z"
                     clip-rule="evenodd"
                   />
-                </svg>
-                <svg
+                </svg> -->
+                <!-- <svg
                   v-show="toggleDrawer_LearnResources"
                   class="w-6 h-6 transition-all duration-500"
                   fill="currentColor"
@@ -416,7 +418,7 @@
                     d="M14.707 12.707a1 1 0 01-1.414 0L10 9.414l-3.293 3.293a1 1 0 01-1.414-1.414l4-4a1 1 0 011.414 0l4 4a1 1 0 010 1.414z"
                     clip-rule="evenodd"
                   ></path>
-                </svg>
+                </svg> -->
               </button>
 
               <!--
@@ -453,7 +455,7 @@
                         </p>
                         <p class="mt-1 text-sm text-gray-500">
                           Get all of your questions answered in our forums or
-                          contact support.
+                          About Us support.
                         </p>
                       </div>
                     </a>
@@ -520,12 +522,12 @@
                 </div>
               </div>
             </div>
-            <a
-              href="#"
-              class="text-base md:text-sm mt-1 font-medium text-white hover:text-gray-300"
+            <div
+              @click="$router.push('/about')"
+              class="cursor-pointer text-base md:text-sm mt-1 font-medium text-white hover:text-gray-300"
             >
-              Contact
-            </a>
+              About Us
+            </div>
           </nav>
           <div  class="hidden  md:flex items-center justify-end md:flex-1 lg:w-0">
             <!-- <a

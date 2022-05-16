@@ -9,7 +9,7 @@
     <Technologics />
     <AwesomeServices />
     <OurServices />
-    <Testimonials />
+    <!-- <Testimonials /> -->
     <Banner />
     <Footer />
   </div>

@@ -72,13 +72,13 @@
                     >
                       <span
                         class="title-font tracking-tight font-extrabold lg:text-5xl text-2xl sm:text-sm"
-                        >The <span style="color: #00d25b">Real</span > Devs</span
+                        >One <span style="color: #00d25b">Connect</span ></span
                       >
                     </div>
                     <div class="mt-8 text-2xl text-white dark:text-gray-200">
                       Welcome to
                       <span class="font-bold" style="color: #00d25b"
-                        >The Real Dev's</span
+                        >One Connect</span
                       >!
                     </div>
                     <div class="mt-6 text-white dark:text-gray-400">

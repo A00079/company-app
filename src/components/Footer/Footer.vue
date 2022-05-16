@@ -172,7 +172,7 @@
             </svg>
             <span class="ml-3 text-xl text-white"
               ><span class="title-font tracking-tight font-extrabold text-2xl"
-                >The <span style="color: #00d25b">Real</span> Devs</span
+                >One <span style="color: #00d25b">Connect</span></span
               ></span
             >
           </a>
@@ -366,7 +366,7 @@
           <small
             class="text-gray-400 text-left md:text-center lg:text-center xl:text-center sm:text-left"
           >
-            Poonam Empire Nallasopara (W) © Copyright 2021 TheRealDevs.com<br />
+            Poonam Empire Nallasopara (W) © Copyright 2021 OneConnect.com<br />
             All Rights Reserved. *No. 1 in terms of Software Development as per
             industry estimates
           </small>

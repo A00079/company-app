@@ -25,7 +25,7 @@
               @click="$router.push('/')"
               class="cursor-pointer group rounded-md text-white inline-flex items-center md:text-xl lg:text-2xl text-base font-medium hover:text-gray-400 focus:outline-none mr-10 focus:text-indigo-500"
             >
-              <span class="title-font tracking-tight font-extrabold lg:text-2xl text-2xl sm:text-sm">The <span style="color:#00d25b">Real</span> Devs</span>
+              <span class="title-font tracking-tight font-extrabold lg:text-2xl text-2xl sm:text-sm">One <span style="color:#00d25b">Connect</span></span>
             </div>
           </div>
           <div class="-mr-2 -my-2 pt-1 md:hidden">
